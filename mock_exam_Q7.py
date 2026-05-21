@@ -40,7 +40,7 @@ with tab2:
 
             ratings = np.random.randint(1, 5, size=10)
             df_sample = pd.DataFrame({"Customer_Names": names, "Products": products, "Rating": ratings})
-            st.data_frame(df_sample)
+            st.dataframe(df_sample)
 
 
     with col2:
