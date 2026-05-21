@@ -35,7 +35,7 @@ with tab2:
         elif user_file is None:
             st.write("No file uploaded. Displaying sample data:")
 
-            products = ["WebApp Pro", "DataSuite Plus", "Analytics Dashboard"]
+            products = ["WebApp Pro", "DataSuite Plus", "Analytics Dashboard", "WebApp Pro", "DataSuite Plus", "Analytics Dashboard", "WebApp Pro", "DataSuite Plus", "Analytics Dashboard", "WebApp Pro"]
             names = ["Alice Smith", "Bob Johnson", "Carol Davis", "David Wilson", "Emma Brown", "Frank Miller", "Amy Chen", "Kevin Lee", "Robert Taylor", "Michelle Clark"]
 
             ratings = np.random.randint(1, 5, size=10)
