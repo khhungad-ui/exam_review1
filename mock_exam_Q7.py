@@ -39,7 +39,7 @@ with tab2:
             names = ["Alice Smith", "Bob Johnson", "Carol Davis", "David Wilson", "Emma Brown", "Frank Miller", "Amy Chen", "Kevin Lee", "Robert Taylor", "Michelle Clark"]
 
             ratings = np.random.randint(1, 5, size=10)
-            df_sample = pd.DataFrame({"Customer_Names" : names, "Products": products, "Customer_Names" : names, "Rating": ratings})
+            df_sample = pd.DataFrame({"Customer_Names": names, "Products": products, "Rating": ratings})
             st.data_frame(df_sample)
 
 
